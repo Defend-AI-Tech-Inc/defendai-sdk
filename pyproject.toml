@@ -1,7 +1,7 @@
 [project]
 name = "defendai-sdk"
-version = "0.1.0"
-description = "DefendAI Wawsdb platform SDK: connection, auth, domain-list, verdict, activities, and health check"
+version = "0.2.0"
+description = "DefendAI Wawsdb platform SDK: connection, auth, domain-list, known-apps, verdict, activities, and health check"
 authors = [{name = "DefendAI Tech Inc", email = "support@defendai.tech"}]
 readme = "README.md"
 requires-python = ">=3.10"
