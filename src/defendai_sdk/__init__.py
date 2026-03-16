@@ -4,6 +4,14 @@ from defendai_sdk.activities import post_activity, post_activity_async
 from defendai_sdk.client import WawsdbClient, auth_headers
 from defendai_sdk.domain_list import DomainLists, get_domain_list, get_domain_list_async
 from defendai_sdk.health import ReachabilityCache, is_reachable, is_reachable_async
+from defendai_sdk.high_risk_config import (
+    HighRiskAgentCache,
+    McpPublisherCache,
+    get_high_risk_agent_types,
+    get_high_risk_agent_types_async,
+    get_mcp_publishers,
+    get_mcp_publishers_async,
+)
 from defendai_sdk.known_apps import (
     KnownAppsCache,
     get_known_apps,
@@ -27,4 +35,10 @@ __all__ = [
     "get_known_apps",
     "get_known_apps_async",
     "KnownAppsCache",
+    "get_high_risk_agent_types",
+    "get_high_risk_agent_types_async",
+    "get_mcp_publishers",
+    "get_mcp_publishers_async",
+    "HighRiskAgentCache",
+    "McpPublisherCache",
 ]
